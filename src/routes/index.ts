@@ -1,6 +1,7 @@
 import App from "@/App";
 import About from "@/pages/About";
 import Home from "@/pages/Home";
+import Register from "@/pages/Register";
 import { createBrowserRouter } from "react-router";
 
 export const router = createBrowserRouter([
@@ -17,5 +18,9 @@ export const router = createBrowserRouter([
                         Component: About
                   }
             ]
+      },
+      {
+            path: "/register",
+            Component: Register
       }
 ]);
